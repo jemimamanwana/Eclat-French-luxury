@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eclat | Home</title>
+    <title>Eclat | French Luxury Maison</title>
     <link rel="stylesheet" href="Eclat.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
@@ -28,7 +28,7 @@
         </div>
         <nav class="navigation">
             <a href="index.html">Home</a>
-            <a href="#">Haute Couture</a>
+            <a href="haute-couture.html">Haute Couture</a>
             <a href="#">Prêt-à-Porter</a>
             <a href="#">Ateliers</a>
             <a href="#">Contact</a>
@@ -44,8 +44,12 @@
                         sculptée dans les plus nobles matières par nos maîtres artisans. Découvrez un univers où le luxe rencontre 
                         l'audace, où chaque détail est pensé pour célébrer la femme moderne.
                     </p>
+
+                    <br>
+                    <p>Eclat</p>
+                    <br>
                     <div class="link">
-                        <a href="#collections">Discover Now</a>
+                        <a href="#">Explore Collections</a>
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
                 </div>
@@ -71,161 +75,116 @@
     </div>
 
     <main>
-        <!-- Featured Collections Section -->
-        <section id="collections" class="featured-section">
+        <section class="couture-section">
             <div class="section-header">
-                <h2>Signature Collections</h2>
-                <p>Curated ensembles that define the Eclat aesthetic</p>
+                <h2>Haute Couture</h2>
+                <p>The pinnacle of French craftsmanship</p>
             </div>
             
-            <div class="collections-grid">
-                <div class="collection-card">
-                    <div class="collection-image">
-                        <img src="collection1.jpg" alt="Lumière Collection">
-                    </div>
-                    <div class="collection-overlay">
-                        <h3>Lumière</h3>
-                        <p>Spring-Summer 2024</p>
-                        <a href="#" class="collection-link">Explore <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="collection-card">
-                    <div class="collection-image">
-                        <img src="collection2.jpg" alt="Nocturne Collection">
-                    </div>
-                    <div class="collection-overlay">
-                        <h3>Nocturne</h3>
-                        <p>Fall-Winter 2023</p>
-                        <a href="#" class="collection-link">Explore <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="collection-card">
-                    <div class="collection-image">
-                        <img src="collection3.jpg" alt="Éternité Collection">
-                    </div>
-                    <div class="collection-overlay">
-                        <h3>Éternité</h3>
-                        <p>Bridal 2024</p>
-                        <a href="#" class="collection-link">Explore <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Craftsmanship Section -->
-        <section class="craftsmanship-section">
-            <div class="craftsmanship-content">
-                <h2>The Art of French Craftsmanship</h2>
-                <p>
-                    Each Eclat creation is the result of hundreds of hours of meticulous craftsmanship by our 
-                    master artisans in Paris. From hand-stitched seams to custom-dyed silks, every detail 
-                    reflects our uncompromising commitment to excellence.
-                </p>
-                <div class="craftsmanship-stats">
-                    <div class="stat">
-                        <span class="number">150+</span>
-                        <span class="label">Master Artisans</span>
-                    </div>
-                    <div class="stat">
-                        <span class="number">3000+</span>
-                        <span class="label">Hours per Couture Piece</span>
-                    </div>
-                    <div class="stat">
-                        <span class="number">42</span>
-                        <span class="label">Traditional Techniques</span>
-                    </div>
-                </div>
-                <a href="#" class="craftsmanship-link">
-                    Visit Our Ateliers
-                    <i class="fas fa-arrow-right"></i>
-                </a>
-            </div>
-            <div class="craftsmanship-video">
-                <video autoplay muted loop>
-                    <source src="craftsmanship.mp4" type="video/mp4">
-                </video>
-                <div class="video-overlay">
-                    <button class="play-button">
-                        <i class="fas fa-play"></i>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Editorial Section -->
-        <section class="editorial-section">
-            <div class="editorial-header">
-                <h2>Eclat Journal</h2>
-                <p>Discover the world of French luxury through our eyes</p>
-            </div>
-            <div class="editorial-slider swiper">
+            <div class="swiper couture-swiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide editorial-slide">
-                        <img src="editorial1.jpg" alt="Paris Fashion Week">
-                        <div class="editorial-content">
-                            <span class="editorial-date">June 15, 2024</span>
-                            <h3>Paris Fashion Week: Behind the Scenes</h3>
-                            <p>A glimpse into the making of our latest couture presentation at the Palais Garnier.</p>
-                            <a href="#" class="editorial-link">Read More</a>
+                    <div class="swiper-slide couture-slide">
+                        <img src="homepage.jpg" alt="Haute Couture Dress">
+                        <div class="slide-overlay">
+                            <h3>La Reine Soleil</h3>
+                            <p>Hand-embroidered with 24k gold thread</p>
                         </div>
                     </div>
-                    <div class="swiper-slide editorial-slide">
-                        <img src="editorial2.jpg" alt="Silk Harvest">
-                        <div class="editorial-content">
-                            <span class="editorial-date">May 28, 2024</span>
-                            <h3>The Silk Harvest: From Cocoon to Couture</h3>
-                            <p>Our journey to Lyon to source the finest silks for our upcoming collection.</p>
-                            <a href="#" class="editorial-link">Read More</a>
+                    <div class="swiper-slide couture-slide">
+                        <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Haute Couture Dress">
+                        <div class="slide-overlay">
+                            <h3>Nuit Étoilée</h3>
+                            <p>Over 500 hours of meticulous craftsmanship</p>
                         </div>
                     </div>
-                    <div class="swiper-slide editorial-slide">
-                        <img src="editorial3.jpg" alt="Métiers d'Art">
-                        <div class="editorial-content">
-                            <span class="editorial-date">April 12, 2024</span>
-                            <h3>Preserving France's Métiers d'Art</h3>
-                            <p>How Eclat supports traditional craftsmanship through our apprenticeship program.</p>
-                            <a href="#" class="editorial-link">Read More</a>
+                    <div class="swiper-slide couture-slide">
+                        <img src="waves.jpg" alt="Haute Couture Dress">
+                        <div class="slide-overlay">
+                            <h3>Rêve de Soie</h3>
+                            <p>Custom silk jacquard from Lyon</p>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
         </section>
 
-        <!-- Boutique Section -->
-        <section class="boutique-section">
-            <div class="boutique-image">
-                <img src="boutique.jpg" alt="Eclat Boutique Paris">
-            </div>
-            <div class="boutique-content">
-                <h2>Visit Our Paris Boutique</h2>
+        <section class="heritage-section">
+            <div class="heritage-content">
+                <h2>Notre Héritage</h2>
                 <p>
-                    Our flagship boutique on Rue du Faubourg Saint-Honoré offers an immersive Eclat experience. 
-                    Book a private appointment to discover our collections in an intimate setting with 
-                    personalized service from our style advisors.
+                    Fondée en 1925 par Geneviève de Montclair, Eclat a rapidement établi sa réputation comme 
+                    l'une des maisons de couture les plus exclusives de Paris. Notre atelier historique situé 
+                    rue du Faubourg Saint-Honoré continue de perpétuer les traditions de la haute couture 
+                    française tout en innovant pour la femme contemporaine.
                 </p>
-                <div class="boutique-info">
-                    <div class="info-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>38 Rue du Faubourg Saint-Honoré, 75008 Paris</span>
+                <div class="heritage-stats">
+                    <div class="stat">
+                        <span class="number">99</span>
+                        <span class="label">Ans d'Excellence</span>
                     </div>
-                    <div class="info-item">
-                        <i class="fas fa-clock"></i>
-                        <span>Monday to Saturday, 10:00 - 19:00</span>
+                    <div class="stat">
+                        <span class="number">42</span>
+                        <span class="label">Métiers d'Art</span>
                     </div>
-                    <div class="info-item">
-                        <i class="fas fa-phone"></i>
-                        <span>+267 76146451</span>
+                    <div class="stat">
+                        <span class="number">1500+</span>
+                        <span class="label">Heures par Robe</span>
                     </div>
                 </div>
-                <button class="boutique-button">
-                    Book an Appointment
-                    <i class="fas fa-arrow-right"></i>
-                </button>
+            </div>
+            <div class="heritage-image">
+                <img src="eclat.jpg" alt="EclAtelier">
             </div>
         </section>
 
-        <!-- Newsletter Section -->
+        <section class="materials-section">
+            <div class="materials-header">
+                <h2>Les Matières Exceptionnelles</h2>
+                <p>Only the most exquisite materials grace our creations</p>
+            </div>
+            <div class="materials-grid">
+                <div class="material-card">
+                    <div class="material-image">
+                        <img src="Eclat@.webp" alt="Soie de Lyon">
+                    </div>
+                    <div class="material-info">
+                        <h3>Soie de Lyon</h3>
+                        <p>Handwoven silk from the last remaining Lyon silk mills</p>
+                    </div>
+                </div>
+                <div class="material-card">
+                    <div class="material-image">
+                        <img src="eclat.jpg" alt="Fil d'Or">
+                    </div>
+                    <div class="material-info">
+                        <h3>Fil d'Or 24K</h3>
+                        <p>Pure gold thread hand-embroidered by our artisans</p>
+                    </div>
+                </div>
+                <div class="material-card">
+                    <div class="material-image">
+                        <img src="EclatPerfume.webp" alt="Dentelle de Calais">
+                    </div>
+                    <div class="material-info">
+                        <h3>Dentelle de Calais</h3>
+                        <p>Rare French lace crafted on antique Leavers machines</p>
+                    </div>
+                </div>
+                <div class="material-card">
+                    <div class="material-image">
+                        <img src="homeperfume2.jpg" alt="Cuir de Versailles">
+                    </div>
+                    <div class="material-info">
+                        <h3>Cuir de Versailles</h3>
+                        <p>Vegetable-tanned leather from France's oldest tannery</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="newsletter-section">
             <div class="newsletter-container">
                 <h2>Join Our World</h2>
@@ -309,6 +268,5 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="Eclat.js"></script>
-    <script src="home.js"></script>
 </body>
 </html>
